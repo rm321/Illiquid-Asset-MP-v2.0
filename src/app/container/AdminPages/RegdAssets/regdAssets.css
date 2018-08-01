@@ -1,0 +1,48 @@
+/*.regdAssets-section button {
+    margin-bottom: 20px;
+}*/
+
+.regdAssets-section .regdAssets-box-style{
+    background-color: white;
+    border: 1px solid #bcbcbc;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 2px 2px 10px;
+    margin-top: 45px;
+}
+.regdAssets-section {
+    padding: 25px;
+
+}
+.regdAssets-section .custom-div {
+    display: none;
+    position: relative;
+}
+
+#asset-heading{
+    margin-bottom: 20px;
+}
+
+
+#Admn-regd-ast-type{
+    min-width:55%
+}
+
+#Admn-regd-ast-subType{
+    min-width:55%
+}
+
+regdAssets-section .lbldiv {
+    display: inline-block;
+    clear : left;
+    width : 170px;
+    text-align: left; 
+}
+.regdAssets-section b {
+    display: inline-block;
+    clear: left;
+    width: 10px;
+}
+.regdAssets-section .input-div{
+    min-width:55%;
+}

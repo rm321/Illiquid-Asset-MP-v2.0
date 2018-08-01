@@ -1,0 +1,13 @@
+.administrator-section .paginationPane {
+    position: fixed;
+    width: 82%;
+    display: block;
+    bottom: 15px;
+}
+.administrator-section #blcExp-heading {
+    margin-top: 20px;
+}
+.administrator-section table thead tr th,
+.administrator-section table tbody tr td{
+    text-align: left
+}   

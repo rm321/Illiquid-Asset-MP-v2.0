@@ -1,0 +1,27 @@
+.TradeModal-section .modal-dialog .modal-content .modal-header.modal-heading{
+  background-color: #27394f;
+  color: white;
+}
+#tradeModal {
+    opacity: 1;
+    display: block;
+    border-radius: 5px;
+}
+.TradeModal-section .modal .modal-dialog.modal-style {
+    margin-top: 200px;
+}
+.TradeModal-section .modal .modal-dialog .modal-content .modal-footer .btn{
+    outline: none;
+}
+
+.TradeModal-section .lbldiv {
+    display: inline-block;
+    clear : left;
+    width : 230px;
+    text-align: left;
+}
+.TradeModal-section .modal .modal-dialog .modal-content .modal-body b {
+    display: inline-block;
+    clear: left;
+    width: 10px;
+}

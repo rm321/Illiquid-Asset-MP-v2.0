@@ -1,0 +1,27 @@
+.blockExplorerModal-section .modal-dialog .modal-content .modal-header.modal-heading{
+  background-color: #27394f;
+  color: white;
+}
+#blockExplorerModal {
+    opacity: 1;
+    display: block;
+    border-radius: 5px;
+}
+.blockExplorerModal-section .modal .modal-dialog.modal-style {
+    margin-top: 200px;
+}
+.blockExplorerModal-section .modal .modal-dialog .modal-content .modal-footer .btn{
+    outline: none;
+}
+
+.blockExplorerModal-section .modal .modal-dialog .modal-content .modal-body .lbldiv {
+    display: inline-block;
+    clear : left;
+    width : 170px;
+    text-align: left;
+}
+.blockExplorerModal-section .modal .modal-dialog .modal-content b {
+    display: inline-block;
+    clear: left;
+    width: 10px;
+}

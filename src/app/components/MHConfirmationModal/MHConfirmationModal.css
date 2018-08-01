@@ -1,0 +1,19 @@
+
+.MHConfirmationModal-section .modal-dialog .modal-content .modal-header.modal-heading{
+  background-color: #27394f;
+  color: white;
+}
+#MHConfirmationModal {
+    opacity: 1;
+    display: block;
+    border-radius: 5px;
+}
+.MHConfirmationModal-section .modal .modal-dialog.modal-style {
+    margin-top: 150px;
+}
+.MHConfirmationModal-section .modal .modal-dialog .modal-content .modal-footer {
+    text-align: center;
+}
+.MHConfirmationModal-section .modal .modal-dialog .modal-content .modal-footer .modal-btn {
+    outline: none
+}

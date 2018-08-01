@@ -1,0 +1,30 @@
+.EditUserModal-section .modal-dialog .modal-content .modal-header.modal-heading{
+  background-color: #27394f;
+  color: white;
+}
+#userEditModal {
+    opacity: 1;
+    display: block;
+    border-radius: 5px;
+}
+.EditUserModal-section .modal .modal-dialog.modal-style {
+    margin-top: 200px;
+}
+.EditUserModal-section .modal .modal-dialog .modal-content .modal-footer .btn{
+    outline: none;
+}
+
+.EditUserModal-section .modal .modal-dialog .modal-content .modal-body label{
+    display: inline-block;
+    clear : left;
+    width : 140px;
+    text-align: left;
+}
+.EditUserModal-section .modal .modal-dialog .modal-content .modal-body b {
+    display: inline-block;
+    clear : left;
+    width : 10px;
+}
+.EditUserModal-section .modal .modal-dialog .modal-content .modal-body {
+    padding: 10px;
+}

@@ -1,0 +1,31 @@
+.nav-bar-style{
+    border: 0px;
+    margin: 0px;
+    background-color: #101720;
+    height: 100%;
+    border-radius: 0px;
+}
+.nav-btn {
+    padding: 8px;
+    width: 100%;
+    border-radius: 0px;
+    border-width: 0px 0px 2px 0px;
+    border-color: #202f42; 
+    outline: none;
+    background-color: #101720;
+}
+.nav-btn:hover {
+    background-color: #27394f;
+    border-left: 2px solid #0097f0;
+}
+#loggedUser {
+    color: white;
+    padding-left: 35px;
+    padding-bottom: 20px;
+    position: fixed;
+    bottom: 0;
+}
+.navigationBar-section .navbar .nav .active .nav-btn{
+    background-color: #27394f;
+    border-left: 2px solid #0097f0;
+}

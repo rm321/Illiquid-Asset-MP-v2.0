@@ -1,0 +1,32 @@
+.AdminList-section button {
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.AdminList-section .admin-box-style{
+    margin-top: 15px;
+    background-color: white;
+    border: 1px solid #bcbcbc;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 2px 2px 10px;
+}
+.AdminList-section .admin-action-box-style{
+    margin-top: 15px;
+    background-color: white;
+    border: 1px solid #bcbcbc;
+    padding: 25px;
+}
+.AdminList-section .details-row{
+    margin-top: 10px;
+}
+.AdminList-section output{
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #27394f;
+    color: white;
+    text-align-last: center;
+    font-size: small;
+    padding: 4px 8px 4px 8px;
+}

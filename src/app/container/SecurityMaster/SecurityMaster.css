@@ -1,0 +1,21 @@
+.securityMaster-section .row .col-md-4.assetType-div-style {
+    margin-top: 20px
+}
+#asset-type {
+    outline: none;
+    margin-left: 5px;
+}
+#asset-type-label {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.securityMaster-section a{
+    cursor: pointer
+}
+.securityMaster-section .noAssetmsg {
+    color: #bcbcbc;
+    text-align: center;
+}
+.securityMaster-section table tr td {
+    cursor: pointer
+}

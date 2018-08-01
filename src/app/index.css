@@ -1,0 +1,51 @@
+/*html {
+  overflow: hidden;
+}*/
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Calibri';
+  background: #f2f3f4;
+}
+.table tr th{
+  text-align: center;
+}
+.table tr td{
+  text-align: center;
+}
+.no-margin {
+  margin: 0px;
+}
+.no-padding {
+  padding: 0px;
+}
+.no-border {
+  border: 0px;
+}
+.h100 {
+  height: 100%;
+}
+.w100 {
+  width: 100%;
+}
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}
+.align-left {
+  text-align: left;
+}
+html input[disabled]{
+    cursor: not-allowed;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}

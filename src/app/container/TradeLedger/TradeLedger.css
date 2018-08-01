@@ -1,0 +1,32 @@
+.tradeLedger-section table tr th {
+    text-align: left;
+}
+
+.tradeLedger-section table tr td {
+    cursor: pointer;
+    text-align: left;
+}
+
+.tradeLedger-section table tr td:nth-last-of-type(-n+3) {
+    text-align: right;
+}
+
+.tradeLedger-section table tr td:nth-last-child(2) {
+    text-align: left;
+}
+
+.tradeLedger-section .balance-pane {
+    margin-top: 20px;
+}
+.tradeLedger-section .paginationPane {
+    position: fixed;
+    width: 81%;
+    display: block;
+    bottom: 15px;
+}
+.tradeLedger-section #tdPrWdth {
+    width: 11%;
+}
+.tradeLedger-section #rnBalWdth {
+    width: 13%;
+}

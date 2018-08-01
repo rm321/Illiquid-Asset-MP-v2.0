@@ -1,0 +1,16 @@
+.receivedRequest-section table tr td:hover {
+    cursor: pointer;
+}
+.noBidsmsg {
+    color: #bcbcbc;
+    text-align: center
+}
+.receivedRequest-section .paginationPane {
+    position: fixed;
+    width: 81%;
+    display: block;
+    bottom: 15px;
+}
+.receivedRequest-section #receivedReqts-pane {
+    margin: 20px 0px 5px 0px;
+}

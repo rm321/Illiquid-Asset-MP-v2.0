@@ -1,0 +1,29 @@
+
+.marketPlaceAssetReqt-section .modal-dialog .modal-content .modal-header.modal-heading{
+  background-color: #27394f;
+  color: white;
+}
+#marketPlaceAssetReqtModal {
+    opacity: 1;
+    display: block;
+    border-radius: 5px;
+}
+.marketPlaceAssetReqt-section .custom-div{
+    display: none;
+}
+.marketPlaceAssetReqt-section .modal .modal-dialog.modal-style {
+    margin-top: 150px;
+}
+.marketPlaceAssetReqt-section .modal .modal-dialog .modal-content .modal-footer .btn.modal-btn {
+    outline: none;
+}
+.lblmrktplc {
+    display: inline-block;
+    clear : left;
+    width : 165px;
+    text-align: left; 
+}
+#mrktlbl{
+    padding:3px;
+}
+

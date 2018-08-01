@@ -1,0 +1,23 @@
+.clientMaster-section .row .col-md-4.assetType-div-style {
+    margin-top: 20px
+}
+.clientMaster-section a{
+    cursor: pointer
+}
+.clientMaster-section .noAssetmsg {
+    color: #bcbcbc;
+    text-align: center;
+}
+.clientMaster-section #clientMaster-heading {
+    margin-top: 20px;
+}
+.clientMaster-section .paginationPane {
+    position: fixed;
+    width: 82%;
+    display: block;
+    bottom: 15px;
+}
+.clientMaster-section table thead tr th,
+.clientMaster-section table tbody tr td{
+    text-align: left
+}

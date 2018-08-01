@@ -1,0 +1,31 @@
+.myProfile-section .myProfile-grid-style{
+    display: block;
+}
+.myProfile-section .myProfile-grid-style label {
+    display: inline-block;
+    width: 140px;
+}
+.myProfile-section .myProfile-grid-style b {
+    display: inline-block;
+    width: 10px;
+}
+.myProfile-section .myProfile-grid-style span {
+    display: inline-block;
+}
+
+#tokens-link {
+    cursor: pointer;
+    text-decoration: underline;
+    color: -webkit-link; 
+}
+.myProfile-section .profile-header {
+    margin: 20px 0px 5px 0px;
+}
+.myProfile-section .profileBox {
+    background-color: white;
+    margin-top: 120px;
+    border: 1px solid #bcbcbc;
+    border-radius: 15px;
+    padding: 0px 0px 15px 45px;
+    box-shadow: 2px 2px 10px;
+}

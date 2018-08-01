@@ -1,0 +1,118 @@
+.wrngSearch {
+    border: 2px solid red;
+}
+
+.wrngMsg {
+    display: none;
+}
+
+#wrngMsg-div {
+    color: red;
+}
+
+#search-Ast-ID {
+    margin-top: 20px;
+}
+
+.assetHistory-section .hr {
+    border: '1px double black';
+}
+
+.assetHistory-section h1 {
+    color: #bcbcbc;
+    text-align: center;
+    font-size: 33px;
+}
+
+#map-container {
+    height: 220px;
+    width: 100%;
+    border: 1px solid #bcbcbc;
+}
+
+#full-map-container {
+    height: 240px;
+    width: 100%;
+    border: 1px solid #bcbcbc;
+    margin: 10px 0px 10px 0px;
+}
+
+.assetHistory-section .assets-pagination {
+    margin-bottom: 6px;
+}
+
+.assetHistory-section .margin10px {
+    margin-top: 10px
+}
+
+.assetHistory-section .asset-details-pane {
+    border: 1px solid #bcbcbc;
+    height: 220px;
+}
+
+.assetHistory-section #chart-div{
+    border: 1px solid #bcbcbc;
+    height: 300px;
+}
+
+.assetHistory-section #astDetContainerPane {
+  /*padding-top: 30px;*/
+}
+.assetHistory-section #astDetContainerPane label {
+    text-align: left;
+    display: inline-block;
+    width: 150px;
+}
+.assetHistory-section #astDetContainerPane b {
+    text-align: center;
+    display: inline-block;
+    width: 20px;
+}
+.assetHistory-section #astDetContainerPane span {
+    /*margin-left: 40px;*/
+    display: inline-block;
+}
+
+
+.assetHistory-section table {
+    margin-bottom: 5px;
+}
+
+.assetHistory-section table thead tr th,
+.assetHistory-section table tbody tr td {
+    text-align: left;
+}
+/*.assetHistory-section table tbody tr td {
+    text-align: left;
+}*/
+.assetHistory-section table tbody tr td:last-child {
+    text-align: right;
+}
+.assetHistory-section table tbody tr td.empty-row {
+    padding: 20px 0px 20px 0px;
+    border: 0px;
+}
+.assetHistory-section table tbody tr td.noTxMsg {
+    padding: 0px;
+    border: 0px;
+}
+.assetHistory-section #noHisMsg {
+    top: 21%;
+}
+.assetHistory-section table tfoot tr td{
+    text-align: left;
+    padding: 0px;
+    border: 0px;
+}
+
+#asset-table-pane table {
+    border: 1px solid #bcbcbc;
+}
+#asset-table-pane table tr td:first-child,
+#asset-table-pane table tr th:first-child {
+  border-left: 0;
+}
+#asset-table-pane table tr td:last-child,
+#asset-table-pane table tr th:last-child {
+  border-right: 0;
+}

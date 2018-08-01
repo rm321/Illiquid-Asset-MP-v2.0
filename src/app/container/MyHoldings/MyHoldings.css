@@ -1,0 +1,26 @@
+.myHoldings-section .row.assetType-div-style {
+    margin-top: 20px
+}
+.myHoldings-section #assetId-link {
+    cursor: pointer;
+    text-decoration: underline;
+    color: -webkit-link; 
+}
+.myHoldings-section table thead tr th {
+    text-align: left;
+}
+.myHoldings-section table tbody tr td {
+    text-align: left;
+}
+.myHoldings-section table tbody tr td:nth-last-child(-n+3) {
+    text-align: right;
+}
+.myHoldings-section table tbody tr td:last-child {
+    text-align: center;
+}
+.myHoldings-section .paginationPane {
+    position: fixed;
+    width: 81%;
+    display: block;
+    bottom: 15px;
+}

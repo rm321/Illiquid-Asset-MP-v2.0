@@ -1,0 +1,10 @@
+.pendingReqts-section tr td button{
+    margin: 0px 2px 0px 2px;
+}
+.pendingReqts-section .btn-circle{
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    padding: 1px;
+    font-size: 13px;
+}

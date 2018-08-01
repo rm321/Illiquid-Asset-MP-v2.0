@@ -1,0 +1,23 @@
+.assetRegistration-section .modal-dialog .modal-content .modal-header.modal-heading{
+  background-color: #27394f;
+  color: white;
+}
+#assetRegistration {
+    opacity: 1;
+    display: block;
+    border-radius: 5px;
+}
+.assetRegistration-section .modal .modal-dialog.modal-style {
+    margin-top: 150px;
+}
+.assetRegistration-section .modal .modal-dialog .modal-content .modal-footer .btn.modal-btn {
+    outline: none;
+}
+
+.lbldiv {
+    display: inline-block;
+    clear : left;
+    width : 170px;
+    text-align: left;
+    margin-bottom: 12px; 
+}

@@ -1,0 +1,53 @@
+.marketPlace-section .row.assetType-div-style {
+    margin-top: 20px
+}
+
+#asset-type {
+    outline: none;
+    margin-left: 5px;
+}
+
+.marketPlace-section #assetId-link {
+    cursor: pointer;
+    text-decoration: underline;
+    color: -webkit-link;
+}
+
+#asset-type-label {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.marketPlace-section a {
+    cursor: pointer
+}
+
+.marketPlace-section .noAssetmsg {
+    color: #bcbcbc;
+    text-align: center;
+}
+
+.marketPlace-section table tr td,
+.marketPlace-section table tr th {
+    cursor: default;
+    text-align: left;
+}
+
+.marketPlace-section table tr.sameOwner {
+    color: #910a0a;
+}
+
+.marketPlace-section table tr.sameOwner:hover td button {
+    cursor: not-allowed;
+}
+
+.marketPlace-section table tr td:nth-child(6),
+.marketPlace-section table tr td:nth-child(7) {
+    text-align: right;
+}
+.marketPlace-section .paginationPane {
+    position: fixed;
+    width: 81%;
+    display: block;
+    bottom: 15px;
+}

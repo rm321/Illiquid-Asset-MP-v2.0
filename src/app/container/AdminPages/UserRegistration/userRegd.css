@@ -1,0 +1,42 @@
+.userRegd-section button {
+    outline: none;
+    margin-top: 15px;
+}
+
+.userRegd-section .userRegd-box-style{
+    background-color: white;
+    border: 1px solid #bcbcbc;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 2px 2px 10px;
+    margin-top: 45px;
+}
+.userRegd-section {
+    padding: 25px;
+}
+
+
+
+/*------------------------------*/
+/*.userregd-input {
+    border : 0px;
+    outline : none;
+}*/
+userRegd-section .lbldiv {
+    display: inline-block;
+    clear : left;
+    width : 90px;
+    text-align: left; 
+}
+.userRegd-section b {
+    display: inline-block;
+    clear : left;
+    width : 10px;
+}
+userRegd-section .userregd-input{
+    min-width:52%;
+}
+/*hr{
+    border: 1px solid #bcbcbc;
+    margin: 0px;
+}*/

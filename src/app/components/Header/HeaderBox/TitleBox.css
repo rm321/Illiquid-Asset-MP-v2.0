@@ -1,0 +1,20 @@
+.heading {
+  padding: 17px;
+  font-size: 18px;
+  height: 100%;
+  }
+img {
+  position: fixed;
+  height: 23px;
+  margin-top: -3px; 
+  }
+  #headerPane {
+  background: #27394f;
+  color: #fff;
+  }
+.logobox {
+  border-right: 1px solid #0097f0;
+  padding-top: 17px;
+  font-size: 18px;
+  height: 100%;
+}
