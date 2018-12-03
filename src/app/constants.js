@@ -223,29 +223,29 @@ export const RequestsList = [
 ]
 
 
-export const AssetRegisterAddr = '0x309cb2ad217b3d673f53d404369234c5e51e8844'
+export const AssetRegisterAddr = '0x78cec1b438eff15c00c162cca81e0d99e88db069'
 
-export const AssetRequestAddr = '0x0304efe49985ee4b21b271c25d24d4c4fafcb816'
+export const AssetRequestAddr = '0x52b0edff59109e9d66e86784dfcff72ebf10f4fc'
 
-export const AssetTokenAddr = '0x3969509b5db6b786d0e0b12386405c0faee66414'
+export const AssetTokenAddr = '0x74681c2942eb1542dce489408d6d1efb0bb5f373'
 
 export const AssetTypesAddr = '0xe7af6c280904ad8ccf5af71db221df066b591489'
 
-export const BidRequestsAddr = '0xe62c0f763a7ed3f4f2f6f331c3cf80d686ba8305'
+export const BidRequestsAddr = '0x30a0819d7c7c7ea75e68193a6357afbf6d167a90'
 
-export const CTokenAddr = '0x64c2d04ecc2b42b23cffee2a5d77867346831abf'
+export const CTokenAddr = '0x8e675b8894e8c41f0feb6a14af9efb84f758d274'
 
-export const MPAssetRequestsAddr = '0xdf41c8d3d01ab0d5fe0cad22f3efbd695cc865f4'
+export const MPAssetRequestsAddr = '0x7d96afa2a39afdb44029c0d115778e7b7959942d'
 
-export const REAssetsAddr = '0xe07cc138e77ffd246768fc989dc71d83df29074c'
+export const REAssetsAddr = '0x1371bb9ecc7edaa4ce1c356e9d706b6f4fdda1f3'
 
-export const RegReceiptsAddr = '0x6edaaffffa8678da1e2275c78d56f4d5e1f0dfb4'
+export const RegReceiptsAddr = '0x20f82ee9ead56194c65dc5bb35a5a6861b242bd6'
 
-export const TxRegisterAddr = '0xad1ad0e907e4d5ff4d24381b5fa027866d4288e0'
+export const TxRegisterAddr = '0x7be6aa23e6dd327c5daf0eba71aec90042bbc4b4'
 
-export const LedgerAddr = '0x8249b6270529f651c3e0141cb8d92b0d3f23b8e8'
+export const LedgerAddr = '0x3ac5d676e12d1b602c489b18b625810dcc925535'
 
-export const UsersAddr = '0xdf0adac33e2a7a3a06cc8831f60a815288bfe19a'
+export const UsersAddr = '0x5f73aec22a987b7c86531ecc21955c35fa3c2e35'
 
 export const AssetRegisterAbi = [{"constant":true,"inputs":[{"name":"","type":"address"},{"name":"","type":"bytes32"}],"name":"assetVisibility","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"Assets","outputs":[{"name":"assetName","type":"bytes32"},{"name":"assetSubType","type":"bytes32"},{"name":"assetID","type":"bytes32"},{"name":"cmpnyName","type":"bytes32"},{"name":"description","type":"bytes32"},{"name":"assetType","type":"bytes32"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"bytes32"}],"name":"assetTimestamp","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"bytes32"}],"name":"marketPricePerAssetId","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_assetName","type":"bytes32"},{"name":"_assetType","type":"bytes32"},{"name":"_assetSubType","type":"bytes32"},{"name":"_assetID","type":"bytes32"},{"name":"_cmpnyName","type":"bytes32"},{"name":"_description","type":"bytes32"},{"name":"_timestamp","type":"uint256"}],"name":"addNewAsset","outputs":[{"name":"addAsset_Status","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_newOwner","type":"address"},{"name":"_assetID","type":"bytes32"}],"name":"addAssetWithWalletAfterSell","outputs":[{"name":"success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_assetType","type":"bytes32"}],"name":"getAssetIdByType","outputs":[{"name":"","type":"bytes32[]"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_assetID","type":"bytes32"}],"name":"getAssetTimestamp","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_seller","type":"address"},{"name":"_assetID","type":"bytes32"}],"name":"checkAssetHolding","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_assetID","type":"bytes32"},{"name":"_owner","type":"address"}],"name":"getAssetDetailsByAssetID","outputs":[{"name":"","type":"bytes32"},{"name":"","type":"bytes32"},{"name":"","type":"bytes32"},{"name":"","type":"bytes32"},{"name":"","type":"bytes32"},{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_assetID","type":"bytes32"},{"name":"_owner","type":"address"}],"name":"getAssetDetailsByAssetIDForHoldings","outputs":[{"name":"","type":"bytes32"},{"name":"","type":"bytes32"},{"name":"","type":"bytes32"},{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_assetID","type":"bytes32"}],"name":"getAssetTypeByAssetID","outputs":[{"name":"","type":"bytes32"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_assetType","type":"bytes32"}],"name":"getAssetDetailsByType","outputs":[{"name":"","type":"bytes32[]"},{"name":"","type":"bytes32[]"},{"name":"","type":"bytes32[]"},{"name":"","type":"bytes32[]"},{"name":"","type":"bytes32[]"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_assetID","type":"bytes32"},{"name":"_marketPrice","type":"uint256"}],"name":"setMarketPrice","outputs":[{"name":"_success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_assetID","type":"bytes32"}],"name":"getMarketPrice","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_newOwner","type":"address"},{"name":"_assetID","type":"bytes32"}],"name":"addAssetWithWalletInReg","outputs":[{"name":"_success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"getAssetIDsForUser","outputs":[{"name":"","type":"bytes32[]"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"getNoOfAssetsOwned","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_owner","type":"address"},{"name":"_assetID","type":"bytes32"}],"name":"enableVisibility","outputs":[{"name":"success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_owner","type":"address"},{"name":"_assetID","type":"bytes32"}],"name":"disableVisibility","outputs":[{"name":"success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"}];
 
